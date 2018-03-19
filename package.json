@@ -1,0 +1,23 @@
+{
+  "name": "six-principles-of-design",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "node-sass-chokidar": "^1.1.2",
+    "npm-run-all": "^4.1.2",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "build:app": "react-scripts build",
+    "build:css": "node-sass-chokidar src/index.scss src/index.css",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "watch:app": "react-scripts start",
+    "watch:css": "node-sass-chokidar src/ -o src/ --watch --recursive",
+    "watch": "npm-run-all -p watch:*"
+  }
+}
