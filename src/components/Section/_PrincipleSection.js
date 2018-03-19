@@ -1,22 +1,31 @@
 import React, { Component } from 'react';
 
+import PRINCIPLESLIST from '../../data/data-principles';
+
 import Card from '../Card/Card';
 
 class PrincipleSection extends Component {
+  principleExamples = PRINCIPLESLIST[this.props.title]["principles"];
 
-  render() {
+  renderPrincipleExamples() {
+    return this.principleExamples.map(example => <Card title={example.name} key={example.name} />);
+  }
+
+  renderPrincipleSection() {
     return(
       <div className={this.props.title + "-section"}>
-        <h2 className="section__title">{this.props.title}</h2>
+        <h2 className="section__title">
+          { PRINCIPLESLIST[this.props.title]["displayName"] }
+        </h2>
         <div className="cards-container">
-          <Card title="proximity" />
-          <Card title="similarity" />
-          <Card title="continuation" />
-          <Card title="repetition" />
-          <Card title="rhythm" />
+          { this.renderPrincipleExamples() }
         </div>
       </div>
     );
+  }
+
+  render() {
+    return this.renderPrincipleSection();
   };
 
 }
