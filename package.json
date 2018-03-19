@@ -13,11 +13,11 @@
   },
   "scripts": {
     "build:app": "react-scripts build",
-    "build:css": "node-sass-chokidar src/index.scss src/index.css",
+    "build:css": "node-sass-chokidar src/scss/main.scss src/main.css",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "watch:app": "react-scripts start",
-    "watch:css": "node-sass-chokidar src/ -o src/ --watch --recursive",
+    "watch:css": "node-sass-chokidar --watch src/scss/ -o src/ --recursive",
     "watch": "npm-run-all -p watch:*"
   }
 }
