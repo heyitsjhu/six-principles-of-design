@@ -8,12 +8,12 @@ class PrincipleSection extends Component {
   principleExamples = PRINCIPLESLIST[this.props.title]["principles"];
 
   renderPrincipleExamples() {
-    return this.principleExamples.map(example => <Card title={example.name} key={example.name} />);
+    return this.principleExamples.map(example => <Card title={example.name} description={example.description} key={example.name} />);
   }
 
   renderPrincipleSection() {
     return(
-      <div className={this.props.title + "-section"}>
+      <div className="section-container">
         <h2 className="section__title">
           { PRINCIPLESLIST[this.props.title]["displayName"] }
         </h2>

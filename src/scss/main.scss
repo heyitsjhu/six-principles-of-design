@@ -53,12 +53,21 @@ h6 {
 
 .section {
   @include test-border(green);
+  padding: 2vh 1vw;
   width: 100%;
   min-height: 100vh;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.section-container {
+  margin: 0 auto;
+  max-width: 1400px;
 }
 .section__title {
+  margin: 2vh auto 3vh;
   color: $color-primary;
   text-align: center;
+  font-size: 6vmin;
 }
 
 .hero-section {
@@ -69,11 +78,10 @@ h6 {
   height: 100%;
 }
 .principle-section {
-  padding: $default-section;
-
   border-color: $color-secondary;
   border-style: dotted;
-  border-width: 0 0 8px 0;
+  border-width: 0 0 1vh 0;
+  height: 101vh;
 }
 
 .main-title {
@@ -101,35 +109,43 @@ h6 {
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 0 1% 2%;
+  align-items: center;
+  margin: 0 1% 3vh;
+  padding: 1vh 1vw;
   width: 31.333%;
-  min-height: 35vh;
-  height: 100%;
+  max-height: 39vh;
+  min-height: 39vh;
+  overflow-y: hidden;
 
   @include test-border(grey);
 
   .card__visual {
-    height: 60%;
-  }
-  .card__content {
-    height: 40%;
+    position: relative;
+    margin-bottom: 2vh;
+    height: 24vh;
+    min-height: 24vh;
+
+    svg {
+      height: 100%;
+    }
   }
   .card__title,
   .card__description {
-    margin: 0 auto 16px;
+    margin: 0 auto 0.5vh;
     max-width: 90%;
     text-align: center;
   }
 
   .card__title {
-    font-size: 1.5em;
+    font-size: 2.5vmin;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.01vw;
   }
   .card__description {
+    font-size: 2vmin;
     font-weight: 300;
+    line-height: 1.2;
   }
 
 }

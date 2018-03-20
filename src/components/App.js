@@ -6,7 +6,9 @@ class App extends Component {
   SECTIONS = Object.keys(PRINCIPLESLIST);
 
   renderPrincipleSections() {
-    return this.SECTIONS.map(section => <Section type="principle" title={section} />)
+    return this.SECTIONS.map((section) => {
+      return <Section type="principle" title={section} key={"principle" + section} />
+    });
   }
 
   render() {

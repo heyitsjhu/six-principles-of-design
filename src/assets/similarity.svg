@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Similarity</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Unity-Harmony" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Similarity" fill="#555555">
+            <rect id="Rectangle" x="20" y="120" width="120" height="120"></rect>
+            <rect id="Rectangle-2" x="150" y="120" width="80" height="80"></rect>
+            <rect id="Rectangle-3" x="150" y="210" width="30" height="30"></rect>
+            <circle id="Oval" cx="151.5" cy="32.5" r="22.5"></circle>
+            <polygon id="Triangle" points="86.5 20 109 65 64 65"></polygon>
+            <polygon id="Polygon" points="130 62 153.776413 79.2745751 144.694631 107.225425 115.305369 107.225425 106.223587 79.2745751"></polygon>
+        </g>
+    </g>
+</svg>

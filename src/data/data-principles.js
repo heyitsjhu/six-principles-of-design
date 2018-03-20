@@ -5,7 +5,7 @@ const PRINCIPLESLIST = {
       { name: "Proximity",
         description: "A sense of the distance between elements"
       },
-      { name: "Similiarity",
+      { name: "Similarity",
         description: "Ability to seem repeatable with other elements"
       },
       { name: "Continuation",
