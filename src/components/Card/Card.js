@@ -6,6 +6,25 @@ import Continuation from '../Principles/Continuation';
 import Repetition from '../Principles/Repetition';
 import Rhythm from '../Principles/Rhythm';
 
+import Symmetry from '../Principles/Symmetry';
+import Asymmetry from '../Principles/Asymmetry';
+import Radial from '../Principles/Radial';
+
+import Trees from '../Principles/Trees';
+import Nests from '../Principles/Nests';
+import Weight from '../Principles/Weight';
+
+import SizeRelation from '../Principles/SizeRelation';
+import Ratio from '../Principles/Ratio';
+import Divisions from '../Principles/Divisions';
+
+import Highlight from '../Principles/Highlight';
+import Colour from '../Principles/Colour';
+import SizeFocus from '../Principles/SizeFocus';
+
+import LightDark from '../Principles/LightDark';
+import Line from '../Principles/Line';
+
 class Card extends Component {
 
   renderSVG() {
@@ -20,6 +39,32 @@ class Card extends Component {
       return <Repetition />;
     case 'Rhythm':
       return <Rhythm />;
+    case 'Symmetry':
+      return <Symmetry />;
+    case 'Asymmetry':
+      return <Asymmetry />;
+    case 'Radial':
+      return <Radial />;
+    case 'Trees':
+      return <Trees />;
+    case 'Nests':
+      return <Nests />;
+    case 'Weight':
+      return <Weight />;
+    case 'Size':
+      return this.props.parent === 'scale-proportion' ? <SizeRelation /> : <SizeFocus />;
+    case 'Ratio':
+      return <Ratio />;
+    case 'Divisions':
+      return <Divisions />;
+    case 'Highlight':
+      return <Highlight />;
+    case 'Colour':
+      return <Colour />;
+    case 'Light & Dark':
+      return <LightDark />;
+    case 'Line':
+      return <Line />;
     default:
       return <span>Nothing here yet</span>;
     }

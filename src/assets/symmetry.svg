@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Symmetry</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Balance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Symmetry" fill="#555555">
+            <circle id="right-row3-circle1" cx="160" cy="190" r="25"></circle>
+            <circle id="right-row2-circle2" cx="220" cy="125" r="25"></circle>
+            <circle id="right-row2-circle1" cx="160" cy="125" r="25"></circle>
+            <circle id="right-row1-circle1" cx="160" cy="60" r="25"></circle>
+            <circle id="left-row3-circle1" cx="90" cy="190" r="25"></circle>
+            <circle id="left-row2-circle2" cx="90" cy="125" r="25"></circle>
+            <circle id="left-row2-circle1" cx="30" cy="125" r="25"></circle>
+            <circle id="left-row1-circle1" cx="90" cy="60" r="25"></circle>
+        </g>
+    </g>
+</svg>

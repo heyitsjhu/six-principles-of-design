@@ -8,7 +8,9 @@ class PrincipleSection extends Component {
   principleExamples = PRINCIPLESLIST[this.props.title]["principles"];
 
   renderPrincipleExamples() {
-    return this.principleExamples.map(example => <Card title={example.name} description={example.description} key={example.name} />);
+    return this.principleExamples.map((example) => {
+      return <Card title={example.name} description={example.description} key={example.name} parent={this.props.title} />;
+    });
   }
 
   renderPrincipleSection() {

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Size</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Scale-Proportion" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Size" fill="#555555">
+            <rect id="rectangle-smallest" x="223" y="180" width="12" height="40"></rect>
+            <rect id="rectangle-small" x="192" y="155" width="20" height="65"></rect>
+            <rect id="rectangle-medium" x="146" y="110" width="34" height="110"></rect>
+            <rect id="rectangle-large" x="87" y="70" width="47" height="150"></rect>
+            <rect id="rectangle-largest" x="15" y="30" width="60" height="190"></rect>
+        </g>
+    </g>
+</svg>
